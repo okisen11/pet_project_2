@@ -29,7 +29,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'  # Указывает на корневую папку проекта
+          path: './docs'  # Указывает на корневую папку проекта
       
       - name: Deploy to GitHub Pages
         id: deployment
